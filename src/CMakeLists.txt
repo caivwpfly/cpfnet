@@ -12,7 +12,6 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 aux_source_directory(. SRC)
 #target_include_directories(${PROJECT} ${PROJECT_SOURCE_DIR}/include)
 
-
 ############################################################
 # Create an executable
 ############################################################

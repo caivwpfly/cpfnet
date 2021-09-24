@@ -28,7 +28,7 @@ static size_t read_head_fun( void *ptr, size_t size, size_t nmemb, void *stream)
 
 int main(int argc, char **argv)
 {
-    std::string url = "https://getman.cn/";
+    std::string url = "http://getman.cn/";
     CURL* curl_handle = curl_easy_init();
 
     if(curl_handle){
@@ -47,7 +47,6 @@ int main(int argc, char **argv)
         cout << "3333333333333333333333333333333333333333333333333333 " << endl;
         curl_easy_cleanup(curl_handle);
     }
-
 
     return 0;
 }

@@ -13,5 +13,4 @@ cmake ../
 make -j8
 
 ${COMPILE_FOLDER}/src/chttp
-#./compile_out/src/chttp {dirname $0}
 
